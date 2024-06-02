@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="icon" type="image/x-icon" href="/calculadora/img/calculadora.png">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces&display=swap" rel="stylesheet">
+    <link href="estilo.css" rel="stylesheet" />
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="calculadora">
+            <div class="display">
+                <div id="valor-anterior"></div>
+                <div class="pantalla" id="valor-actual">0</div>
+            </div>
+            <input type="button" class="col-2 btn" id="c" value="AC" />
+            <input type="button" class="btn" id="borrar" value="&larr;" />
+            <input type="button" class="btn operador" value="÷" />
+            <input type="button" class="btn numero" value="7" />
+            <input type="button" class="btn numero" value="8" />
+            <input type="button" class="btn numero" value="9" />
+            <input type="button" class="btn operador" value="X" />
+            <input type="button" class="btn numero" value="4" />
+            <input type="button" class="btn numero" value="5" />
+            <input type="button" class="btn numero" value="6" />
+            <input type="button" class="btn operador" value="-" />
+            <input type="button" class="btn numero" value="1" />
+            <input type="button" class="btn numero" value="2" />
+            <input type="button" class="btn numero" value="3" />
+            <input type="button" class="btn operador" value="+" />
+            <input type="button" class="col-2 btn numero" value="0" />
+            <input type="button" class="btn numero" value="." />
+            <input type="button" class="btn operador" id="igual" value="=" />
+        </div>
+    </div>
+</body>
+</html>
